@@ -6,7 +6,7 @@ Author: Ved Raj | USN: 25BTRCL279 | JAIN FET
 
 import os, subprocess, struct
 
-IMG_SRC  = r"C:\Users\prath\OneDrive\Documents\OS mini project\CA6_Rust_Micro_OS_Engineering_Project\target\micro-os-aurora.img"
+IMG_SRC  = r"C:\Users\prath\OneDrive\Documents\OS mini project\CA6_Rust_Micro_OS_Project\target\micro-os-aurora.img"
 VDI_OUT  = r"C:\Users\prath\OneDrive\Documents\OS mini project\micro-os-aurora.vdi"
 VBOXMGR  = r"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe"
 ELF_BASE = 0xbfa00

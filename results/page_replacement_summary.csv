@@ -1,0 +1,4 @@
+algorithm,frames,total_references,page_faults,fault_rate_pct,variance_from_optimal_pct,stack_algorithm_property,belady_anomaly_risk
+FIFO,16,10000,3483,34.83,20.07,No,Confirmed
+LRU,16,10000,2412,24.12,9.36,Yes,Immune
+Optimal (OPT),16,10000,1476,14.76,0.0,Yes,Theoretical Benchmark

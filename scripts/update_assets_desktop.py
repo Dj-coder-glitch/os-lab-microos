@@ -4,7 +4,7 @@ Overhaul desktop and VBox rendering in generate_all_assets.py with macOS Glassmo
 """
 import os
 
-path = os.path.join("CA6_Rust_Micro_OS_Engineering_Project", "scripts", "generate_all_assets.py")
+path = os.path.join("CA6_Rust_Micro_OS_Project", "scripts", "generate_all_assets.py")
 
 with open(path, "r", encoding="utf-8") as f:
     code = f.read()

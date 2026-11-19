@@ -6,7 +6,7 @@ import os
 import shutil
 import subprocess
 
-bios_img = os.path.join("CA6_Rust_Micro_OS_Engineering_Project", "target", "micro-os-bios.img")
+bios_img = os.path.join("CA6_Rust_Micro_OS_Project", "target", "micro-os-bios.img")
 
 with open(bios_img, "rb") as f:
     data = bytearray(f.read())
@@ -62,7 +62,7 @@ if os.path.exists(vdi_temp):
         except:
             pass
     shutil.copy2(vdi_temp, target_vdi)
-    shutil.copy2(vdi_temp, os.path.join("CA6_Rust_Micro_OS_Engineering_Project", "dist", target_vdi))
+    shutil.copy2(vdi_temp, os.path.join("CA6_Rust_Micro_OS_Project", "dist", target_vdi))
     os.remove(vdi_temp)
     print("Successfully generated micro-os-macos.vdi in workspace root and dist/!")
 else:

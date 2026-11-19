@@ -4,7 +4,7 @@ Script to update kernel/src/main.rs with macOS Glassmorphic Executive UI.
 """
 import os
 
-kernel_path = os.path.join("CA6_Rust_Micro_OS_Engineering_Project", "kernel", "src", "main.rs")
+kernel_path = os.path.join("CA6_Rust_Micro_OS_Project", "kernel", "src", "main.rs")
 
 with open(kernel_path, "r", encoding="utf-8") as f:
     code = f.read()

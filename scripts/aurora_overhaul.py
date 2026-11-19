@@ -9,8 +9,8 @@ the new "Aurora Neural OS" theme - totally different from original.
 import sys, os, shutil, subprocess, re
 
 PY = sys.executable
-IMG_SRC  = r"C:\Users\prath\OneDrive\Documents\OS mini project\CA6_Rust_Micro_OS_Engineering_Project\target\micro-os-bios.img"
-IMG_OUT  = r"C:\Users\prath\OneDrive\Documents\OS mini project\CA6_Rust_Micro_OS_Engineering_Project\target\micro-os-aurora.img"
+IMG_SRC  = r"C:\Users\prath\OneDrive\Documents\OS mini project\CA6_Rust_Micro_OS_Project\target\micro-os-bios.img"
+IMG_OUT  = r"C:\Users\prath\OneDrive\Documents\OS mini project\CA6_Rust_Micro_OS_Project\target\micro-os-aurora.img"
 VDI_OUT  = r"C:\Users\prath\OneDrive\Documents\OS mini project\micro-os-aurora.vdi"
 VBOXMGR  = r"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe"
 
