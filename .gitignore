@@ -1,0 +1,21 @@
+# Rust Build Artifacts
+target/
+**/target/
+**/*.rs.bk
+*.lock
+
+# VirtualBox Virtual Disk Images (4MB+ raw disk format)
+*.vdi
+*.vmdk
+*.nvram
+
+# Intermediate / Debug Verification Screenshots
+vm_*.png
+term_*.png
+
+# System Logs & Python Caches
+*.log
+__pycache__/
+*.pyc
+.idea/
+.vscode/

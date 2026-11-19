@@ -1,0 +1,9 @@
+target/
+*.log
+results/*.csv
+__pycache__/
+*.pyc
+
+backup_v1/
+*.vdi
+*.img
