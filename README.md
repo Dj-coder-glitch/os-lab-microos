@@ -213,6 +213,13 @@ oslab/
 ├── Aurora_Neural_OS_Report.pdf           # Complete 16-page Academic PDF Report (533 KB)
 ├── Rust_Micro_OS_Engineering_Report.pdf  # Supplementary Engineering Documentation
 ├── micro-os.iso                          # Bootable Hybrid ISO Image (3.04 MB)
+├── CA1_TO_CA6/                           # Continuous Assessment Submissions (CA1 to CA6)
+│   ├── OS_Lab_Report_Ved_Raj_25BTRCL279.pdf
+│   ├── CA2_Page_Replacement_Performance_Investigation.pdf
+│   ├── CA3_Page_Replacement_Design_and_Debugging_Challenge.pdf
+│   ├── CA5_Linux_Virtual_Memory_Engineering_Challenge.pdf
+│   ├── 25BTRCL279_OS.pdf_20261027_110900_0000 (1).pdf
+│   └── VEDRAJ OS.pdf
 ├── results/                              # Empirical Evaluation Datasets (CSV)
 │   ├── page_replacement_summary.csv     # 80/20 Workload Fault Metrics Table
 │   └── belady_anomaly_comparison.csv     # Step-by-step Trace & Fault Matrix
